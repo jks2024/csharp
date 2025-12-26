@@ -1,0 +1,14 @@
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/bin/Debug/net8.0/MesTotalPrj
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/bin/Debug/net8.0/MesTotalPrj.deps.json
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/bin/Debug/net8.0/MesTotalPrj.runtimeconfig.json
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/bin/Debug/net8.0/MesTotalPrj.dll
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/bin/Debug/net8.0/MesTotalPrj.pdb
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/obj/Debug/net8.0/MesTotalPrj.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/obj/Debug/net8.0/MesTotalPrj.AssemblyInfoInputs.cache
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/obj/Debug/net8.0/MesTotalPrj.AssemblyInfo.cs
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/obj/Debug/net8.0/MesTotalPrj.csproj.CoreCompileInputs.cache
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/obj/Debug/net8.0/MesTotalPrj.dll
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/obj/Debug/net8.0/refint/MesTotalPrj.dll
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/obj/Debug/net8.0/MesTotalPrj.pdb
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/obj/Debug/net8.0/MesTotalPrj.genruntimeconfig.cache
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/obj/Debug/net8.0/ref/MesTotalPrj.dll

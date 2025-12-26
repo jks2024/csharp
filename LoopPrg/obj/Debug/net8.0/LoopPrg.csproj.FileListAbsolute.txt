@@ -1,0 +1,14 @@
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/bin/Debug/net8.0/LoopPrg
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/bin/Debug/net8.0/LoopPrg.deps.json
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/bin/Debug/net8.0/LoopPrg.runtimeconfig.json
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/bin/Debug/net8.0/LoopPrg.dll
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/bin/Debug/net8.0/LoopPrg.pdb
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/obj/Debug/net8.0/LoopPrg.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/obj/Debug/net8.0/LoopPrg.AssemblyInfoInputs.cache
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/obj/Debug/net8.0/LoopPrg.AssemblyInfo.cs
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/obj/Debug/net8.0/LoopPrg.csproj.CoreCompileInputs.cache
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/obj/Debug/net8.0/LoopPrg.dll
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/obj/Debug/net8.0/refint/LoopPrg.dll
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/obj/Debug/net8.0/LoopPrg.pdb
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/obj/Debug/net8.0/LoopPrg.genruntimeconfig.cache
+/Users/kyungsoojeong/Dev/csharp/LoopPrg/obj/Debug/net8.0/ref/LoopPrg.dll

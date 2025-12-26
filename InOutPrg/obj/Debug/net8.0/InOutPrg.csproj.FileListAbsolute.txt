@@ -1,0 +1,14 @@
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/bin/Debug/net8.0/InOutPrg
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/bin/Debug/net8.0/InOutPrg.deps.json
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/bin/Debug/net8.0/InOutPrg.runtimeconfig.json
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/bin/Debug/net8.0/InOutPrg.dll
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/bin/Debug/net8.0/InOutPrg.pdb
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/obj/Debug/net8.0/InOutPrg.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/obj/Debug/net8.0/InOutPrg.AssemblyInfoInputs.cache
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/obj/Debug/net8.0/InOutPrg.AssemblyInfo.cs
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/obj/Debug/net8.0/InOutPrg.csproj.CoreCompileInputs.cache
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/obj/Debug/net8.0/InOutPrg.dll
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/obj/Debug/net8.0/refint/InOutPrg.dll
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/obj/Debug/net8.0/InOutPrg.pdb
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/obj/Debug/net8.0/InOutPrg.genruntimeconfig.cache
+/Users/kyungsoojeong/Dev/csharp/InOutPrg/obj/Debug/net8.0/ref/InOutPrg.dll

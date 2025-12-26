@@ -1,0 +1,14 @@
+/Users/kyungsoojeong/Dev/csharp/AirCon/obj/Debug/net8.0/AirCon.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kyungsoojeong/Dev/csharp/AirCon/obj/Debug/net8.0/AirCon.AssemblyInfoInputs.cache
+/Users/kyungsoojeong/Dev/csharp/AirCon/obj/Debug/net8.0/AirCon.AssemblyInfo.cs
+/Users/kyungsoojeong/Dev/csharp/AirCon/obj/Debug/net8.0/AirCon.csproj.CoreCompileInputs.cache
+/Users/kyungsoojeong/Dev/csharp/AirCon/bin/Debug/net8.0/AirCon
+/Users/kyungsoojeong/Dev/csharp/AirCon/bin/Debug/net8.0/AirCon.deps.json
+/Users/kyungsoojeong/Dev/csharp/AirCon/bin/Debug/net8.0/AirCon.runtimeconfig.json
+/Users/kyungsoojeong/Dev/csharp/AirCon/bin/Debug/net8.0/AirCon.dll
+/Users/kyungsoojeong/Dev/csharp/AirCon/bin/Debug/net8.0/AirCon.pdb
+/Users/kyungsoojeong/Dev/csharp/AirCon/obj/Debug/net8.0/AirCon.dll
+/Users/kyungsoojeong/Dev/csharp/AirCon/obj/Debug/net8.0/refint/AirCon.dll
+/Users/kyungsoojeong/Dev/csharp/AirCon/obj/Debug/net8.0/AirCon.pdb
+/Users/kyungsoojeong/Dev/csharp/AirCon/obj/Debug/net8.0/AirCon.genruntimeconfig.cache
+/Users/kyungsoojeong/Dev/csharp/AirCon/obj/Debug/net8.0/ref/AirCon.dll

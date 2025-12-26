@@ -1,0 +1,14 @@
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/bin/Debug/net8.0/SamplePrg
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/bin/Debug/net8.0/SamplePrg.deps.json
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/bin/Debug/net8.0/SamplePrg.runtimeconfig.json
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/bin/Debug/net8.0/SamplePrg.dll
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/bin/Debug/net8.0/SamplePrg.pdb
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/obj/Debug/net8.0/SamplePrg.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/obj/Debug/net8.0/SamplePrg.AssemblyInfoInputs.cache
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/obj/Debug/net8.0/SamplePrg.AssemblyInfo.cs
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/obj/Debug/net8.0/SamplePrg.csproj.CoreCompileInputs.cache
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/obj/Debug/net8.0/SamplePrg.dll
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/obj/Debug/net8.0/refint/SamplePrg.dll
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/obj/Debug/net8.0/SamplePrg.pdb
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/obj/Debug/net8.0/SamplePrg.genruntimeconfig.cache
+/Users/kyungsoojeong/Dev/csharp/SamplePrg/obj/Debug/net8.0/ref/SamplePrg.dll
