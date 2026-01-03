@@ -1,5 +1,6 @@
 using System;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 using MesMachineSim.Models;
@@ -18,13 +19,37 @@ namespace MesMachineSim.Services
         BaseAddress = new Uri(AppConfig.BaseUrl) // 객체 초기화자 문법
       };
     }
+    // 로그인 기능
+    public async Task<bool> LoginAsync(string email, string password)
+    {
+      try {
+          var loginDto = new LoginReqDto { Email = email, Password = password };
+          var response = await _httpClient.PostAsJsonAsync("auth/login", loginDto);
+
+          if (response.IsSuccessStatusCode) {
+              var tokenDto = await response.Content.ReadFromJsonAsync<TokenDto>();
+              if (tokenDto != null) {
+                  // ★ 핵심: 이후 모든 요청에 Bearer 토큰을 자동으로 붙임
+                  _httpClient.DefaultRequestHeaders.Authorization = 
+                      new AuthenticationHeaderValue("Bearer", tokenDto.AccessToken);
+                  return true;
+              }
+          }
+      } catch (Exception ex) {
+          Console.WriteLine($"[Login Error] {ex.Message}");
+      }
+      return false;
+    }
+    // 기존 PollWorkOrderAsync, ReportProductionAsync는 수정할 필요 없음 
+    // (_httpClient 헤더에 이미 토큰이 담겨있기 때문)
+
     // 작업 지시지 폴링 (Get)
     public async Task<WorkOrderDto?> PollWorkOrderAsync() 
     {
       try
       {
         // ✅ machineId를 같이 보냄 (백엔드가 "이 설비에게" 작업을 고정 할당)
-        var url = $"machine/poll?machineId={Uri.EscapeDataString(AppConfig.MachineId)}";
+        var url = $"api/mes/machine/poll?machineId={Uri.EscapeDataString(AppConfig.MachineId)}";
 
         var response = await _httpClient.GetAsync(url);
         if (response.StatusCode == System.Net.HttpStatusCode.OK)
@@ -42,7 +67,7 @@ namespace MesMachineSim.Services
     {
       try
       {
-        var response = await _httpClient.PostAsJsonAsync("machine/report", report);
+        var response = await _httpClient.PostAsJsonAsync("api/mes/machine/report", report);
 
         // 1. 성공 시 "OK" 반환
         if (response.IsSuccessStatusCode)

@@ -17,7 +17,9 @@ namespace MesMachineSim.Services
 
     public async Task RunAsync()
     {
-      Console.WriteLine($"🚀 설비 [{AppConfig.MachineId}] 가동을 시작합니다.");
+      Console.WriteLine("------------------------------------------------");
+      Console.WriteLine($"🚀 설비 [{AppConfig.MachineId}] 가동 시작 (인증 완료)");
+      Console.WriteLine("------------------------------------------------");
 
       while (true)
       {
@@ -56,12 +58,14 @@ namespace MesMachineSim.Services
       // 95% 확률로 양품(OK), 5% 확률로 불량(NG)
       bool isSuccess = _random.NextDouble() > 0.05;
 
-      var report = new ProductionReportDto
-      {
-        OrderId = order.Id,
-        MachineId = AppConfig.MachineId,
-        Result = isSuccess ? "OK" : "NG",
-        DefectCode = isSuccess ? null : "ERR-102" // 예: 치수 불량
+      string serialNo = $"{order.ProductCode}-{DateTime.Now:yyyyMMdd}-{Guid.NewGuid().ToString().Substring(0, 8).ToUpper()}";
+
+      var report = new ProductionReportDto {
+          OrderId = order.Id,
+          MachineId = AppConfig.MachineId,
+          SerialNo = serialNo, // 직접 생성해서 전달
+          Result = isSuccess ? "OK" : "NG",
+          DefectCode = isSuccess ? null : "ERR-102"
       };
 
       string reportStatus = await _apiService.ReportProductionAsync(report);

@@ -12,3 +12,4 @@
 /Users/kyungsoojeong/Dev/csharp/MesMachineSim/obj/Debug/net8.0/MesTotalPrj.pdb
 /Users/kyungsoojeong/Dev/csharp/MesMachineSim/obj/Debug/net8.0/MesTotalPrj.genruntimeconfig.cache
 /Users/kyungsoojeong/Dev/csharp/MesMachineSim/obj/Debug/net8.0/ref/MesTotalPrj.dll
+/Users/kyungsoojeong/Dev/csharp/MesMachineSim/obj/Debug/net8.0/MesTotalPrj.sourcelink.json
